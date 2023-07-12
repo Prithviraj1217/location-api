@@ -13,15 +13,26 @@ body {
   justify-content: center;
 }
 button {
-  margin: 10px;
-  background: purple;
+
+  margin: auto;
+  height: 120px;
+  width: 150px;
+  background: rgb(41, 26, 177);
   color: white;
   border: 0;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 10px;
   text-align: center;
   cursor: pointer;
+  font-size: 2vw;
+  transition: transform .2s;
+
 }
+
+button:hover{
+  transform: scale(1.2);
+}
+
 
 #country-container {
   display: flex;
@@ -31,4 +42,13 @@ button {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 400px;
   margin: 30px;
+}
+
+.container_blue {
+background: rgb(59, 103, 226);
+border-radius: 7px;
+width: 400px;
+height: 200px;
+display: flex;
+text-align: center;
 }
