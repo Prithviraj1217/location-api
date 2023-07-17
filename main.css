@@ -15,8 +15,8 @@ body {
 button {
 
   margin: auto;
-  height: 120px;
-  width: 150px;
+  height: 140px;
+  width: 180px;
   background: rgb(41, 26, 177);
   color: white;
   border: 0;
@@ -36,6 +36,7 @@ button:hover{
 
 #country-container {
   display: flex;
+  margin-top: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -45,7 +46,10 @@ button:hover{
 }
 
 .container_blue {
+
+margin-top: 30px;
 background: rgb(59, 103, 226);
+box-shadow: 0 0 10px rgb(22, 39, 226);
 border-radius: 7px;
 width: 400px;
 height: 200px;
